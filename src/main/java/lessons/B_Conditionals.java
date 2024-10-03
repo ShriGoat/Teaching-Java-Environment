@@ -7,37 +7,44 @@ public class B_Conditionals {
     public boolean isPositive(int number){
         // returns if a number is positive
         
-        return false;
+        return number>0;
     }
 
     public boolean isEven(int num){
         //  Check if a number is even or not and return that value
 		
-        return false;
+        return num%2 ==0;
     }
 
     public boolean canVote(int age){
         // Return if a person can vote (age >= 18)
         
-        return false;
+        return age>=18;
     }
 
     public String dayName(int day){
         // Write a switch statement that checks the value of a variable 'day' (1-7) and prints the name of that day
         // Return "Invalid Day" if the value doesn't corospond to any day
-
-
-        return "";
+        
+        return "Monday";
+        return "Tuesday";
+        return "Wednesday";
+        return "Thursday";
+        return "Friday";
+        return "Saturday";
+        return "Sunday";
+        return "Invalid Day";
     }
 
     public boolean withinSetRange(double number){
         // Write an if statement that checks if a number is between 10 and 20 (inclusive)
         
-        return false;
+        return number >= 10 && number <= 20;
     }
 
     public boolean withinRange(double number, double lowerBound, double upperBound){
         // Check if a number is between an upper and lower bound (inclusive)
+    
         
         return false;
     }
